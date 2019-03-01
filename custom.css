@@ -1,0 +1,158 @@
+
+
+.inline {
+    display:inline-block;
+}
+
+/*
+.badge-size {
+    padding:20px;
+}
+*/
+
+.wanted {
+	position:relative;
+}
+.wanted img {
+	opacity:0.5;
+}
+.wanted .coins {
+  position:absolute;
+  top:5%;
+  left:10%;
+  background:#dedede;
+  border-radius:10px;
+  opacity:0.8;
+  z-index:1;
+  width:80%;
+}
+.wanted .coins .reward {
+  text-align:center;
+  padding:5% 27%;
+  font-weight:bold;
+}
+.wanted .coins .reward strong {
+  color: orange;
+}
+.wanted .gandalf {
+  position:absolute;
+  top:50%;
+  left:20%;
+  color:#fff;
+}
+
+.wanted .dead {
+    position:absolute;
+    top:40%;
+    left:28%;
+    color:#fff;
+    font-size:50px;
+}
+
+.wanted:hover .coins {
+  display:none;
+}
+.wanted:hover img {
+  opacity:1;
+}
+.wanted:hover .gandalf {
+  position:absolute;
+  top:85%;
+  left:33%;
+  color:#fff;
+  font-size:2vw;
+}
+.wanted:hover .dead {
+    position:absolute;
+    top:85%;
+    left:35%;
+    color:orange;
+    font-size:2vw;
+}
+
+
+.fa {
+	font-size:inherit;
+}
+
+
+
+
+.navbar li  {
+    padding:5px;
+}
+
+.navbar li a {
+    color:white;
+    text-decoration:none;
+}
+
+
+
+.btn-precious {
+  background:#343A40;
+  color:#fff;
+}
+
+.btn-precious:hover {
+  background:#343A40;
+  color:#fff;
+}
+
+
+
+#footer {
+  clear: both;
+  position: relative;
+  padding: 4em 0 1em 0;
+  background: #343A40;
+  float: left;
+  width: 100%;
+  font-size: 13px;
+  line-height: 20px;
+}
+#footer::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -4em;
+  overflow: hidden;
+  width: 100%;
+  height: 350px;
+  background: #343A40;
+
+
+  z-index: -1;
+  -webkit-transform: skewY(2deg);
+  -moz-transform: skewY(2deg);
+  -ms-transform: skewY(2deg);
+  -o-transform: skewY(2deg);
+  transform: skewY(2deg);
+}
+#footer .footer-copyright {
+  margin-top: 5em;
+  color:#fff;
+}
+#footer .footer-links {
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+#footer .footer-links li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#footer .footer-links li a {
+  color: #fff;
+  text-decoration:none;
+}
+
+
+
+.js .to-animate,
+.js .feature-box,
+.js .work-box,
+.js .footer-box,
+.js .animate-box {
+  opacity: 0;
+}
